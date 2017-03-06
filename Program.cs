@@ -10,7 +10,10 @@ namespace NumberFlip
     {
         static void Main(string[] args)
         {
-            int myNum = 321;
+            Console.WriteLine("Input an integer to have it reversed:");
+            string input = Console.ReadLine();
+            int myNum;
+            Int32.TryParse(input, out myNum);
             List<int> digits = new List<int>();
             while (myNum > 0)
             {
