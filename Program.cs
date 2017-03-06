@@ -10,8 +10,17 @@ namespace NumberFlip
     {
         static void Main(string[] args)
         {
-            var myNum = 321;
-            Console.WriteLine(myNum);
+            int myNum = 321;
+            List<int> digits = new List<int>();
+            while (myNum > 0)
+            {
+                int digit;
+                myNum = Math.DivRem(myNum, 10, out digit);
+                digits.Add(digit);
+            }
+
+            foreach (var num in digits)
+                Console.Write(num);
             Console.ReadLine();
         }
     }
