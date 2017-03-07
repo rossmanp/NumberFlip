@@ -1,0 +1,6 @@
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\bin\Debug\NumberFlip.exe.config
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\obj\Debug\NumberFlip.csprojResolveAssemblyReference.cache
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\bin\Debug\NumberFlip.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\bin\Debug\NumberFlip.pdb
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\obj\Debug\NumberFlip.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\NumberFlip\NumberFlip\obj\Debug\NumberFlip.pdb
