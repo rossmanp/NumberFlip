@@ -16,7 +16,8 @@ namespace NumberFlip
             Int32.TryParse(input, out myNum);
             if (!Int32.TryParse(input, out myNum))
                 {
-                Console.WriteLine("Whoops! You did not input an integer. Please press enter to quit the program and restart it.");
+                Console.WriteLine("Whoops! You did not input an integer.");
+                Console.WriteLine("Press enterto end the program.");
                 Console.ReadLine();
                 Environment.Exit(0);
                 }
@@ -27,9 +28,11 @@ namespace NumberFlip
                 myNum = Math.DivRem(myNum, 10, out digit);
                 digits.Add(digit);
             }
-
+            Console.WriteLine("Your reversed integer is: ");
             foreach (var num in digits)
                 Console.Write(num);
+            Console.WriteLine(" ");
+            Console.WriteLine("Press enter to end the program.");
             Console.ReadLine();
         }
     }
