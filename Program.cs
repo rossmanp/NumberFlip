@@ -14,6 +14,12 @@ namespace NumberFlip
             string input = Console.ReadLine();
             int myNum;
             Int32.TryParse(input, out myNum);
+            if (!Int32.TryParse(input, out myNum))
+                {
+                Console.WriteLine("Whoops! You did not input an integer. Please press enter to quit the program and restart it.");
+                Console.ReadLine();
+                Environment.Exit(0);
+                }
             List<int> digits = new List<int>();
             while (myNum > 0)
             {
